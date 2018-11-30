@@ -8,12 +8,12 @@ function clean(text) {
         return text;
 }
 
-const prefix = "Your Prefix";
-const token = "Token Your Bot";
+const prefix = "$";
+const token = "NTE4MDg5MzU3ODc0NDI5OTUy.DuLsJw.9P5f1w7gySCWL6rPEJlaD5KwCOs";
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`Support Magic |${prefix}new`);
+  client.user.setGame(`Support Naxes |${prefix}new`);
 });
 
 
@@ -86,4 +86,4 @@ if (message.content.toLowerCase().startsWith(prefix + `close`)) {
 
 });
 
-client.login(token);
+client.login(NTE4MDg5MzU3ODc0NDI5OTUy.DuLsJw.9P5f1w7gySCWL6rPEJlaD5KwCOs);
